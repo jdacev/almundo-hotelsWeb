@@ -1,0 +1,49 @@
+<html ng-app="appAlmundo">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hoteles | almundo.com</title>
+	    <!-- Font Awesome -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <!-- Bootstrap core CSS -->
+	    <link href="almundo/css/bootstrap.min.css" rel="stylesheet">
+	    <!-- Material Design Bootstrap -->
+	    <link href="almundo/css/mdb.min.css" rel="stylesheet">
+		<!-- Favorite Icon -->
+		<link rel="shortcut icon" href="almundo/img/almundo-iso.png">
+	    <!-- JQuery -->
+	    <script type="text/javascript" src="almundo/js/jquery-3.2.1.min.js"></script>
+	    <!-- Bootstrap tooltips -->
+	    <script type="text/javascript" src="almundo/js/popper.min.js"></script>
+	    <!-- Bootstrap core JavaScript -->
+	    <script type="text/javascript" src="almundo/js/bootstrap.min.js"></script>
+		<!-- Angular -->
+		<script src="almundo/js/angular/angular.min.js"></script>
+		<script src="almundo/js/angular/angular-route.js"></script>
+		<script src="almundo/js/angular/angular-translate.min.js"></script>
+		<script src="almundo/js/angular/angular-sanitize.min.js"></script>
+		<script src="almundo/js/angular/angular-translate-loader-static-files.min.js"></script>
+		<script src="almundo/js/angular/ocLazyLoad.js"></script>
+		<script src="app/directives/checklist-model.js"></script>
+		<!-- Application -->
+		<script src="app/app.js"></script>
+		<!-- Controllers -->
+		<script src="app/controllers/AppController.js"></script>
+		<!-- Services -->
+		<script src="app/services/restApi.js"></script>
+		<script src="app/services/dataService.js"></script>
+	</head>
+	<body ng-controller="AppCtrl">
+		<main role="main">
+			<div class="container">
+				<section>
+					<!-- Views -->
+					<div class="mainView" ng-view></div>
+				</section>
+			</div>
+		</main>
+	    <!-- MDB core JavaScript -->
+	    <script type="text/javascript" src="almundo/js/mdb.min.js"></script>
+		</body>
+	</html>

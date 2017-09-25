@@ -1,0 +1,16 @@
+{
+  "app.search": "Search",
+  "app.ok": "Accept",
+  "app.cancel": "Cancel",
+  "app.yes": "Yes",
+  "app.no": "No",
+  "app.stars": "Stars",
+  "app.hotel.name" : "Hotel's name",
+  "app.viewhotel" : "View Hotel",
+  "app.roomonly" : "Room Only",
+  "app.night.price.room" : "(Price per night per room)",
+  "app.clear" : "Clear results",
+  "app.all" : "All",
+  "app.none" : "None",
+  "app.no.results" : "We are sorry but we could not find Hotels for what you are looking for :("
+}

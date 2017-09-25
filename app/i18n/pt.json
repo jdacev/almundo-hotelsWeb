@@ -1,0 +1,16 @@
+{
+  "app.search": "Procurar",
+  "app.ok": "Aceitar",
+  "app.cancel": "Cancelar",
+  "app.yes": "Sim",
+  "app.no": "Não",
+  "app.stars": "Estrellas",
+  "app.hotel.name" : "Nome do hotel",
+  "app.viewhotel" : "Ver Hotel",
+  "app.roomonly" : "Somente quarto",
+  "app.night.price.room" : "(Preço por noite por quarto)",
+  "app.clear" : "Remover filtros",
+  "app.all" : "Todas",
+  "app.none" : "Nenhum",
+  "app.no.results" : "Lamentamos, mas não conseguimos encontrar hotéis para o que você procura :("
+}
